@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,#ebd085, #efe4c4 );
+}
+.heading{
+    font-weight: bolder;
+    font-size: 32px;
+    color: #8d4232;
+    padding-bottom: 20px;
+}
+.form{
+    padding-top: 173px;
+    padding-left: 642px;
+}
+.input{
+    padding: 6px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+}
+.submit-btn{
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    background-color: #8d4232;
+    color: white;
+    font-size: 20px;
+}
+.submit-btn:hover{
+    background-color: #f58010;
+}
+
+.no-acc{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}

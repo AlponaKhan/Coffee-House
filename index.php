@@ -19,9 +19,9 @@
             <div>
                 <ul class="navlist">
                     <li ><a href="menu.html" class="navitem">Menu</a></li>
-                    <li ><a href="index.html" class="navitem">Home</a></li>
-                    <li ><a href="about.html" class="navitem">About Us</a></li>
-                    <li ><a href="contact.html" class="navitem">Contact</a></li>
+                    <li ><a href="index.php" class="navitem">Home</a></li>
+                    <li ><a href="#contact" class="navitem">Contact</a></li>
+                    <li ><a href="#review" class="navitem">Reviews</a></li>
                 </ul>
             </div>
          </div>
@@ -29,7 +29,7 @@
           <div>
             <div class="banner">
             </div>
-            <button class="reserv-btn">Make Reservation</button>
+            <a href="login.php"><button class="reserv-btn">Make Reservation</button></a>
           </div>
     </header>
     <!-- welcome section -->
@@ -49,7 +49,7 @@
         </div>
      </section>
      <!-- review section -->
-      <section>
+      <section id="review">
         <div class="review">
             <div>
                 <h2 class="wel-head">Happy Customers!</h2>
@@ -157,7 +157,7 @@
     <!-- footer section -->
      <footer class="full-footer">
         <div class="footer">
-            <div>
+            <div id="contact">
                 <!-- contact -->
                  <h2 style="padding-bottom: 15px;">Contact Us</h2>
                  <p class="foot-contact">01345-168942</p>
@@ -167,10 +167,10 @@
             <div>
                 <!-- menu -->
                 <ul class="footer-menu">
-                    <li ><a href="menu.html" class="footer-item">Menu</a></li>
-                    <li ><a href="index.html" class="footer-item">Home</a></li>
-                    <li ><a href="about.html" class="footer-item">About Us</a></li>
-                    <li ><a href="contact.html" class="footer-item">Contact</a></li>
+                <li ><a href="menu.html" class="navitem">Menu</a></li>
+                    <li ><a href="index.php" class="navitem">Home</a></li>
+                    <li ><a href="#contact" class="navitem">Contact</a></li>
+                    <li ><a href="#review" class="navitem">Reviews</a></li>
                 </ul>
             </div>
             <div>
